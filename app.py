@@ -3,7 +3,7 @@ import json
 import os.path
 
 app = Flask(__name__)
-app.secret_key = '4u8a4ut5au1te51uea6u81e5a1u6d54n65at4y'
+
 
 acc_num_global = {}
 
