@@ -94,12 +94,12 @@ def transactions():
         if request.form['option']=='deposit':
             accounts[acc_num_global]['balance'] = str(int(accounts[acc_num_global]['balance']) + int(request.form['amount']))
             flash('TRANSACTION SUCCESSFUL!!')
-            flash('Amount Deposited: EURO ' + str(request.form['amount']))
+            flash('Amount Deposited: ' + str(request.form['amount']) + ' EURO')
         if request.form['option']=='withdraw':
             if (int(accounts[acc_num_global]['balance']) - int(request.form['amount'])) > 0:
                 accounts[acc_num_global]['balance'] = str(int(accounts[acc_num_global]['balance']) - int(request.form['amount']))
                 flash('TRANSACTION SUCCESSFUL!!')
-                flash('Amount Withdrawn: EURO ' + str(request.form['amount']))
+                flash('Amount Withdrawn: ' + str(request.form['amount']) + ' EURO')
             else:
                 flash('TRANSACTION FAILED!!')
                 flash('Insufficient Balance')
