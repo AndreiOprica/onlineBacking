@@ -17,7 +17,8 @@
             <br>
             <div class="textbox">
                 <label for="name">Account Number:</label>
-                <input type="text" name="acc_num" value="" placeholder="Enter Account Number" required autocomplete="off">
+                <input type="text" name="acc_num" value="" placeholder="Enter Account Number" pattern="^[A-Z]{2}(?:[ ]?[0-9]){18,20}$"
+                    title="The Account Number must start with two uppercase, then two digits, after it needs four groups of four digits." required autocomplete="off">
             </div>
             <br>
             <div class="textbox">

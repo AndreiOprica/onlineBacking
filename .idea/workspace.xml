@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf09a2ca-e657-4eba-b5e0-6302917ec043" name="Changes" comment="l" />
+    <list default="true" id="bf09a2ca-e657-4eba-b5e0-6302917ec043" name="Changes" comment="l">
+      <change beforePath="$PROJECT_DIR$/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.json" beforeDir="false" afterPath="$PROJECT_DIR$/login.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
